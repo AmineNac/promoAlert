@@ -210,7 +210,7 @@ public class MainActivity extends ActionBarActivity implements
     /**
      * Runs when the result of calling addGeofences() and removeGeofences() becomes available.
      * Either method can complete successfully or with an error.
-     *
+     * <p>
      * Since this activity implements the {@link ResultCallback} interface, we are required to
      * define this method.
      *
