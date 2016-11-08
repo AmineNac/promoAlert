@@ -22,7 +22,7 @@ public class HTTPUtils {
     }
 
     public static void getOffresWS(String url) {
-
+/*
         StringRequest request = new StringRequest(url, new Response.Listener<String>() {
             @Override
             public void onResponse(String s) {
@@ -36,7 +36,8 @@ public class HTTPUtils {
         });
 
         myApp.getInstance().getRequestQueue().add(request);
-    }
 
+*/
+    }
 
 }

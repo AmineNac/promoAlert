@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   Copyright 2014 Google, Inc
 
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -45,4 +44,5 @@
     <string name="unknown_geofence_transition">Unknown Transition</string>
 
     <string name="geofence_transition_notification_text">Click notification to return to app</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

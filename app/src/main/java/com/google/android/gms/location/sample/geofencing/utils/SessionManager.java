@@ -6,7 +6,6 @@ import android.util.Log;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonParseException;
-import com.manaccache.mpdam.tunjobs.model.User;
 
 /**
  * Created by Amine on 09/04/2015.
@@ -42,14 +41,14 @@ public class SessionManager {
         editor = pref.edit();
         gson = new Gson();
     }
-
+/*
     public void createLoginSession(User user) {
 
         editor.putBoolean(IS_LOGIN, true);
         editor.putString(KEY_USER, gson.toJson(user));
         Log.i("login", gson.toJson(user));
         editor.commit();
-    }
+    }*/
 
     public Boolean checkLogin() {
 
@@ -73,13 +72,13 @@ public class SessionManager {
 
     /**
      * Get stored session data
-     */
+
     public User getClientDetails() throws JsonParseException {
 
         User user = gson.fromJson(pref.getString(KEY_USER, null), User.class);
         return user;
     }
-
+     */
     /**
      * Clear session details
      */

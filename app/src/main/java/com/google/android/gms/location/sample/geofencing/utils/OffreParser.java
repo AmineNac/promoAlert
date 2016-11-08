@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
 public class OffreParser {
-
+/*
     public static ArrayList<Offre> parseData(String content) {
         ArrayList<Offre> offresList = new ArrayList<Offre>();
 
@@ -48,5 +48,5 @@ public class OffreParser {
 
         return offresList;
     }
-
+*/
 }

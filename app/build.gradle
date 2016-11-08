@@ -7,13 +7,13 @@ android {
     defaultConfig {
         applicationId "com.google.android.gms.location.sample.geofencing"
         minSdkVersion 9
-        targetSdkVersion 22
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
